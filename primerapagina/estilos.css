@@ -1,0 +1,299 @@
+#h1-index{
+    border-radius: 4px;
+    display: inline;
+    background-color: rgba(245, 245, 220, 0.553);
+    margin: 0;
+}
+
+
+#body-index{
+    margin: 0;
+    text-align: center;
+    background-image: url(imagenes/fondobeige.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Luckiest Guy';
+}
+
+#p-index{
+    font-size: 20px;
+}
+
+
+#img-index{
+    width: 400px;
+    height: 10px;
+}
+
+#img2-index{
+    width: 400px;
+}
+
+#img3-index{
+    width: 100px;
+}
+
+#img4-index{
+    width: 100px;
+}
+
+#img5-index{
+    width: 90px;
+}
+
+
+.enlaces-index a{
+    text-decoration: none;
+}
+
+
+#body-pagina2 {
+    background-image: url("imagenes/fondorojo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+    font-family: 'Fugaz One';
+}
+
+
+.section-pagina2 {
+    display: flex;
+    align-items: center;      
+    justify-content: center;  
+    gap: 20px;                
+    background-color: rgba(0,0,0,0.6);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 12px;
+}
+
+
+.section-pagina2 img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.section-pagina2 p {
+    max-width: 600px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
+#a-pagina2 {
+    color: black;
+    font-size: 15px;
+    
+}
+
+#a-pagina2:hover {
+    text-decoration: underline;
+}
+
+button{
+    padding: 10px 10px;
+    border-radius: 12px; 
+    color: black;
+}
+
+.botones-index li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.botones-index a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.lista li{
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.tierlist table{
+    margin: 0 auto; 
+  border-collapse: collapse;
+}
+
+
+
+.tierlist img{
+    width: 150px;   
+    height: 150px;  
+    margin: 5px;
+    border-radius: 8px; 
+    object-fit: cover
+}
+
+#body-tier{
+    text-align: center;
+    background-image: url(imagenes/fondoduki.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#h1-tier{
+    color: white;
+    font-family: 'Honk'
+}
+
+
+
+
+#body-lista{
+    font-family: Arial, sans-serif;
+    background-image: url(imagenes/fondoseleccion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bodoni Moda';
+}
+
+#h1-lista{
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+
+#ol-lista{
+    max-width: 800px;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.argentina { background-color: #74acdf; color: black; }
+.españa { background-color: #aa151b; }
+.francia { background-color: #0055a4; }
+.inglaterra { background-color: #003478; }
+.brasil { background-color: #009c3b; }
+.portugal { background-color: #006747; }
+.paisesbajos { background-color: #21468c; }
+.belgica { background-color: #e4002b; }
+.italia { background-color: #009c3b; }
+.croacia { background-color: #e30a17; }
+
+
+.emoji {
+    font-size: 24px;
+}
+
+
+footer {
+    height: 20%;
+    background-color: rgb(96, 4, 21); 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.columna {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    gap: 10px; 
+    text-align: center;
+}
+
+
+.columna h3 {
+    color: rgb(198, 198, 198);
+    margin-bottom: 10px;
+}
+
+
+.columna ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.columna ul li {
+    margin: 5px 0;
+}
+
+
+.columna a {
+    color: rgb(198, 198, 198);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.columna a:hover {
+    text-decoration: underline;
+}
+
+
+.columna img {
+    width: 75px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.footer-inicio {
+    background-color: rgba(0, 0, 0, 0.792);
+}
+
+
+
+.tierlist table {
+  margin: 0 auto;
+  width: 90%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.tierlist th,
+.tierlist td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.columna-titulo {
+  width: 10%;
+  font-weight: bold;
+}
+
+.fila-top {
+  background-color: #FF4C4C;
+}
+
+.fila-muybuenos {
+  background-color: #FF914D;
+}
+
+.fila-buenos {
+  background-color: #FFD93D;
+}
+
+.fila-noesdegusto {
+  background-color: #77DD77;
+}

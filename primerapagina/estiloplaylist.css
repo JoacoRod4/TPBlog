@@ -1,0 +1,286 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+nav ul {
+    background-color: rgb(96, 4, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #b3002d;
+    border-radius: 8px;
+    transition: 0.3s;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: white;
+    color: rgb(96, 4, 21);
+    border-radius: 5px;
+}
+
+
+.container {
+    text-align: center;
+    height: 100%;
+}
+
+aside.inicio{
+    display: inline-block;
+    background-color: black;
+    width: 20%;
+    height: 100%;
+    vertical-align: top;
+}
+
+
+aside.album1{
+    display: inline-block;
+    background-color: rgba(96, 40, 8, 255);
+    width: 20%;
+    height: 100%;
+    vertical-align: top;
+}
+
+
+aside.album2{
+    display: inline-block;
+    background-color: rgba(83, 83, 83, 255);
+    width: 20%;
+    height: 100%;
+    vertical-align: top;
+}
+
+
+aside.album3{
+    display: inline-block;
+    background-color: rgba(64, 24, 24, 255);
+    width: 20%;
+    height: 100%;
+    vertical-align: top;
+}
+
+
+aside.album4{
+    display: inline-block;
+    background-color: rgba(56, 64, 40, 255);
+    width: 20%;
+    height: 100%;
+    vertical-align: top;
+}
+
+
+aside.album5{
+    display: inline-block;
+    background-color: rgba(96, 82, 46, 255);
+    width: 20%;
+    height: 100%;
+    vertical-align: top;
+}
+
+aside.album6{
+    display: inline-block;
+    background-color: rgba(150, 38, 54, 255);
+    width: 20%;
+    height: 100%;
+    vertical-align: top;
+}
+
+
+body.inicio aside li{
+    list-style-type: none;
+    background-color: blue;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+body.album1 aside li{
+    list-style-type: none;
+    background-color: rgba(133, 73, 44, 255);
+    margin: 5px;
+    padding: 10px;
+}
+
+body.album2 aside li{
+    list-style-type: none;
+    background-color: rgba(51, 51, 51, 255);
+    margin: 5px;
+    padding: 10px;
+}
+
+body.album3 aside li{
+    list-style-type: none;
+    background-color: rgba(109, 64, 63, 255);
+    margin: 5px;
+    padding: 10px;
+}
+
+body.album4 aside li{
+    list-style-type: none;
+    background-color: rgba(86, 95, 70, 255);
+    margin: 5px;
+    padding: 10px;
+}
+
+body.album5 aside li{
+    list-style-type: none;
+    background-color: rgba(62, 49, 12, 255);
+    margin: 5px;
+    padding: 10px;
+}
+
+body.album6 aside li{
+    list-style-type: none;
+    background-color: rgba(77, 0, 17, 255);
+    margin: 5px;
+    padding: 10px;
+}
+
+
+aside a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+main.inicio{
+    vertical-align: top;
+    display: inline-block;
+    background-color: blue;
+    width: 78%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+}
+
+
+main.album1{
+    vertical-align: top;
+    display: inline-block;
+    background-color: rgba(133, 73, 44, 255);
+    width: 78%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+}
+
+main.album2{
+    vertical-align: top;
+    display: inline-block;
+    background-color: rgba(51, 51, 51, 255);
+    width: 78%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+}
+
+main.album3{
+    vertical-align: top;
+    display: inline-block;
+    background-color: rgba(109, 64, 63, 255);
+    width: 78%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+}
+
+main.album4{
+    vertical-align: top;
+    display: inline-block;
+    background-color: rgba(86, 95, 70, 255);
+    width: 78%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+}
+
+
+main.album5{
+    vertical-align: top;
+    display: inline-block;
+    background-color: rgba(62, 49, 12, 255);
+    width: 78%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+}
+
+
+main.album6{
+    vertical-align: top;
+    display: inline-block;
+    background-color: rgba(77, 0, 17, 255);
+    width: 78%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+}
+
+
+
+
+iframe {
+    width: 80%;
+    height: 400px;
+    border: none;
+}
+
+
+footer {
+    background-color: rgb(96, 4, 21);
+    height: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.columna {
+    width: 480px;
+}
+
+.columna ul {
+    list-style: none;
+}
+
+.columna a {
+    color: white;
+    text-decoration: none;
+}
+
+.columna a:hover {
+    text-decoration: underline;
+}
+
+.columna h3 {
+    color: white;
+}
+
+img{
+    width: 50px;
+}

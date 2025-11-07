@@ -1,0 +1,145 @@
+body{
+  background-image: url(imagen-trivia/fondotrivia.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Bangers';
+}
+
+
+h1{
+    color: white;
+}
+
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+.jugadores img{
+    height: 300px;
+    border-radius: 15px;
+}
+
+button{
+    padding: 10px 10px;
+    border-radius: 12px; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.nivel1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 10px;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.nivel2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 10px;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.nivel3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 10px;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.incorrectas img{
+    border-radius: 15px;
+    border: 3px solid white;
+    width: 300px;
+}
+
+.nivel4 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 10px;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.perdiste {
+    color: red;
+}
+
+.botoncomenzar{
+    background-color: rgb(151, 253, 255);;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botoninicio{
+    background-color: beige;
+    color: white;
+    font-size: 16px;
+    padding: 10px 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.correcto{
+    color: rgb(0, 255, 0);
+}
+
+/* 
+TIPOS DE SELECTORES CSS: 
+ 
+1) SELECTOR DE TIPO: (Menor jerarquía) 
+Aplica el estilo todos los elementos con el mismo tag <p>
+ 
+Ejemplo: 
+ 
+p {
+    background-color: blueviolet;
+}
+ 
+2) SELECTOR DE CLASE (Jerarquía media) 
+class="nombre"(CSS: .nombre) 
+Se usa para un mismo estilo a varios elementos 
+ 
+Ejemplo:
+ 
+.parrafo2 {
+    background-color: aqua;
+}
+ 
+3) SELECTOR DE ID (Jerarquía mayor) 
+id="nombre"(CSS: #nombre) 
+Se usa para un único elemento 
+ 
+Ejemplo: 
+ 
+#diferente {
+    background-color: yellow;
+}
+ 
+4) STYLE (Dentro del archivo HTML) 
+Tiene la mayor jerarquía y se aplica siempre independientemente de los otros selectores
+ 
+Ejemplo:
+ 
+<h1 style="propiedad_css: valor;">Título</h1>
+*/
